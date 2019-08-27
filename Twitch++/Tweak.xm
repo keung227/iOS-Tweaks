@@ -1,5 +1,3 @@
-// Tweak is patched and no longer works
-
 %hook ClassOne
 - (bool)playlistItemShouldBeginAd:(id)arg1 {
 	return 0;
